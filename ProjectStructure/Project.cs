@@ -1,4 +1,5 @@
 ﻿using ProjectStructure.MainDmnsns;
+using ProjectStructure.Walls;
 using System.Reflection.Metadata;
 
 namespace ProjectStructure
@@ -11,5 +12,6 @@ namespace ProjectStructure
         public DateTime CreatedAt { get; set; }
         public TechnicalTask.TechnicalTask TechnicalTask { get; set; }
         public MainDimensions MainDimensions { get; set; }
+        public List<Wall> Walls { get; set; }
     }
 }

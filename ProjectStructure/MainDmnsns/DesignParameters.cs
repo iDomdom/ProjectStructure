@@ -3,7 +3,14 @@
     public class DesignParameters
     {
         public Guid Id { get; set; }
-        public double LengthWindowOpenings { get; set; }  //длина оконных проемов
+        public List<Window> Windows { get; set; }
+        public List<Door> Doors { get; set; }
+        private double lengthWindowOpenings = Calculate();   //длина оконных проемов
+        public double LengthWindowOpenings
+        {
+            get { return lengthWindowOpenings; }
+            set { lengthWindowOpenings = value; }
+        }  
         public double HeigthWindowOpenings { get; set; }   //высота оконных проемов
         public double PerimeterWindowOpenings { get; set; }
         public double AreaWindowOpenings { get; set; }
