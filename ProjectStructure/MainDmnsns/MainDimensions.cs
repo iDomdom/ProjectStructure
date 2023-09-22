@@ -15,7 +15,11 @@ namespace ProjectStructure.MainDmnsns
         
         public int NumberExternalCorners { get; set; }   //Количество внешних углов наружных стен
         public int NumberInterrnalCorners { get; set; }   //Количество внутренних углов наружных стен
-        public OverBasement OverBasement { get; set; }  // Перекрытие над подвалом (тех.подпольем)
+
+        //закоментил для тестов 15.09.2023
+        //public OverBasement BasementOverlap { get; set; }  // Перекрытие над подвалом (тех.подпольем)
+        //
+
         public double TerraceArea { get; set; }
         public double BalconyArea { get; set; }
         public DesignParameters DesignParameters { get; set; }  // рассчетные параметры

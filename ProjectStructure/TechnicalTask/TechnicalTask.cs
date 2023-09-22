@@ -12,7 +12,6 @@ namespace ProjectStructure.TechnicalTask
         public City City { get; set; }
         public Decoration Decoration { get; set; }
         public ExternalEngineeringNetworks ExternalEngineeringNetworks { get; set; }
-        public string City { get; set; }
         public bool IsShrinkConstruction { get; set; }
         public bool IsVaporarium { get; set; }
         public bool IsKilnDriedLumber { get; set; }  //Пиломатериалы камерной сушки
